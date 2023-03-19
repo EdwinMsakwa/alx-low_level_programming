@@ -21,8 +21,8 @@ int main(void)
 
 		if (digitStartAsciiCode != 57)
 		{
-			putchar(32);
 			putchar(44);
+			putchar(32);
 		}
 
 		digitStartAsciiCode += 1;
