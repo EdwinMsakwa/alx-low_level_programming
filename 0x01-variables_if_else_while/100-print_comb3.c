@@ -12,34 +12,22 @@
 
 int main(void)
 {
-	int firstDigitStartAsciiCode = 48;
-	int firstDigitStopAsciiCode = 57;
+	int i, j;
 
-
-	while (firstDigitStartAsciiCode <= firstDigitStopAsciiCode)
+	for (i = 0; i < 9; i++)
 	{
-		int secondDigitAsciiStart = 48;
-		int secondDigitAsciiStop = 57;
-
-		while (secondDigitAsciiStart <= secondDigitAsciiStop)
+		for (j = i + 1; j <= 9; j++)
 		{
-			putchar(firstDigitStartAsciiCode);
-			putchar(secondDigitAsciiStart);
+			putchar('0' + i);
+			putchar('0' + j);
 
-			if (firstDigitStartAsciiCode == 57 && secondDigitAsciiStart == 57)
+			if (i < 8)
 			{
-				break;
+				putchar(',');
+				putchar(' ');
 			}
-
-			putchar(32);
-
-			secondDigitAsciiStart += 1;
 		}
-
-		firstDigitStartAsciiCode += 1;
 	}
-
-	putchar(10);
 
 	return (0);
 }
