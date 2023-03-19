@@ -13,15 +13,14 @@ int main(void)
 {
 	int lowercaseStartAsciiCode = 97;
 	int lowercaseStopAsciiCode = 122;
+	int uppercaseStartAsciiCode = 65;
+	int uppercaseStopAsciiCode = 90;
 
 	while (lowercaseStartAsciiCode <= lowercaseStopAsciiCode)
 	{
 		putchar(lowercaseStartAsciiCode);
 		lowercaseStartAsciiCode += 1;
 	}
-
-	int uppercaseStartAsciiCode = 65;
-	int uppercaseStopAsciiCode = 90;
 
 	while (uppercaseStartAsciiCode <= uppercaseStopAsciiCode)
 	{
