@@ -5,7 +5,7 @@
 
 /**
  * main - main entry point to the program.
- * Description: Prints the hexidecimal characters.
+ * Description: Prints the numeric characters in ascending order.
  * Return: returns 0 if execution is successful, 1 otherwise.
  */
 
@@ -14,22 +14,21 @@ int main(void)
 	int digitStartAsciiCode = 48;
 	int digitStopAsciiCode = 57;
 
-	int characterStartAsciiCode = 97;
-	int characterStopAsciiCode = 102;
 
 	while (digitStartAsciiCode <= digitStopAsciiCode)
 	{
 		putchar(digitStartAsciiCode);
-		digitStartAsciiCode += 1;
-	}
 
-	while (characterStartAsciiCode <= characterStopAsciiCode)
-	{
-		putchar(characterStartAsciiCode);
-		characterStartAsciiCode += 1;
+		if (digitStartAsciiCode != 57)
+		{
+			putchar(44);
+		}
+
+		digitStartAsciiCode += 1;
 	}
 
 	putchar(10);
 
 	return (0);
 }
+
