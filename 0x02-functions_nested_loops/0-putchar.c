@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-
+#include "main.h"
 
 /**
  * _putchar - writes the character c to stdout
@@ -28,7 +28,7 @@ int main(void)
 
 	for (int i = 0; i < strlen(message); i++)
 	{
-		if (_putchar(message[i]) == -1)
+	if (_putchar(message[i]) == -1)
 		{
 			break;
 		}
