@@ -13,8 +13,9 @@
 int main(void)
 {
 	char message[] = "_putchar";
-
-	for (int i = 0; i < strlen(message); i++)
+	int i;
+	
+	for (i = 0; i < strlen(message); i++)
 	{
 	if (_putchar(message[i]) == -1)
 		{
