@@ -2,7 +2,6 @@
 #include <unistd.h>
 #include <string.h>
 #include "main.h"
-//#include "_putchar.c"
 
 /**
  * main - Main entry point to the program.
