@@ -41,6 +41,14 @@ void print_alphabet_x10(void);
 
 int _islower(int c);
 
+/**
+ * _isalpha - Determines if a character is alphabetic.
+ * @c: argument.
+ * Desciption: The program determines if a character alphabetic;
+ * Return: 1 if c is alphabetic , 0 otherwise
+ */
+
+int _isalpha(int c)
 
 
 
