@@ -1,10 +1,6 @@
-/*
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
-#include "main.h"
-*/
 
+#include <stdio>
+#include "main.h"
 /**
  * print_alphabet - prints alphabetic charatecers.
  * Description: The program outputs alphabetic characters to
