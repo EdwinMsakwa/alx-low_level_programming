@@ -2,7 +2,6 @@
 #define _MAIN_H_
 
 #include <unistd.h>
-#include "print_alphabet.c"
 
 /**
  * _putchar - writes the character c to stdout
