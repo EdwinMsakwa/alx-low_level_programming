@@ -21,15 +21,6 @@ int _putchar(char c);
  */
 
 void print_alphabet(void)
-{
-	int letterAsciiCode;
 
-	for (letterAsciiCode = 97 ; letterAsciiCode <= 122; letterAsciiCode++)
-	{
-		_putchar(letterAsciiCode);
-	}
-	 _putchar('\n');
-
-}
 
 #endif /* _MAIN_H_ */
