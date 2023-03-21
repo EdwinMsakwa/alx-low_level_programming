@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include "_putchar.c"
 /**
  * print_alphabet - prints alphabetic charatecers.
  * Description: The program outputs alphabetic characters to
