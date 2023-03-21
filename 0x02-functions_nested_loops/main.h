@@ -23,4 +23,13 @@ int _putchar(char c);
 void print_alphabet(void);
 
 
+/**
+ * print_alphabet_x10 - prints alphabetic charatecers.
+ * Description: The program outputs alphabetic characters to
+ * the standard output ten times.
+ * Return: void
+ */
+
+void print_alphabet_x10(void)
+
 #endif /* _MAIN_H_ */
