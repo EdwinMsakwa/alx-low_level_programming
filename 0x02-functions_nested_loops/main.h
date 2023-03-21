@@ -32,4 +32,27 @@ void print_alphabet(void);
 
 void print_alphabet_x10(void);
 
+/**
+ * _islower - Determines if a character is lower case.
+ * @c: argument.
+ * Desciption: The program determines if a character is lowercase;
+ * Return: 1 if c is lowercase , 0 otherwise
+ */
+
+int _islower(int c);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #endif /* _MAIN_H_ */
