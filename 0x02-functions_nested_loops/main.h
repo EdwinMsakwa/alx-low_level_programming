@@ -70,5 +70,13 @@ int print_sign(int n);
 
 int _abs(int n);
 
+/**
+ * print_last_digit - prints the last digit
+ * @n: value
+ * Description: returns the last digit of a number
+ * Return: last digit
+ */
+
+int print_last_digit(int n);
 
 #endif /* _MAIN_H_ */
