@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include "_putchar.c"
+
 /**
  * print_alphabet - prints alphabetic charatecers.
  * Description: The program outputs alphabetic characters to
@@ -7,7 +8,7 @@
  * Return: void
  */
 
-void print_alphabet()
+void print_alphabet(void)
 {
 	int letterAsciiCode;
 
