@@ -9,16 +9,14 @@
  * Return: returns 0 upon success , otherwise 1.
  */
 
-
-
 int main(void)
 {
 	char message[] = "_putchar";
-	long unsigned int i;
+	unsigned long int i;
 
 	for (i = 0; i < strlen(message); i++)
 	{
-	if (_putchar(message[i]) == -1)
+		if (_putchar(message[i]) == -1)
 		{
 			break;
 		}
