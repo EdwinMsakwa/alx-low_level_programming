@@ -1,5 +1,3 @@
-
-#include <stdio>
 #include "main.h"
 /**
  * print_alphabet - prints alphabetic charatecers.
