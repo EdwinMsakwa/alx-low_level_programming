@@ -79,4 +79,14 @@ int _abs(int n);
 
 int print_last_digit(int n);
 
+/**
+ * add - adds two numbers and returns the sum
+ * @a: value_1
+ * @b: value_2
+ * Description: add two numbers.
+ * Return: returns int value
+ */
+
+int add(int, int);
+
 #endif /* _MAIN_H_ */
