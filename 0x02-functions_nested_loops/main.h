@@ -89,6 +89,13 @@ int print_last_digit(int n);
 
 int add(int, int);
 
+/**
+ * jack_bauer - Prints time in a 24 hour period.
+ * Description: prints time in a 24 hour pperiod.
+ * Return: void
+ */
+
+void jack_bauer(void);
 
 /**
  * times_table - prints times table.
