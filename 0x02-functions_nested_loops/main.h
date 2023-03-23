@@ -89,6 +89,15 @@ int print_last_digit(int n);
 
 int add(int, int);
 
+
+/**
+ * times_table - prints times table.
+ * Description: prints times table to the standard output ten times.
+ * Return: void
+ */
+
+void times_table(void);
+
 /**
  * print_to_98 - prints to 98
  * @n : value
