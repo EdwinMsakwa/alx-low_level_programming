@@ -89,4 +89,12 @@ int print_last_digit(int n);
 
 int add(int, int);
 
+/**
+ * print_to_98 - prints to 98
+ * @n : value
+ * Description: prints to 98
+ * Return: void
+ */
+
+void print_to_98(int n);
 #endif /* _MAIN_H_ */
