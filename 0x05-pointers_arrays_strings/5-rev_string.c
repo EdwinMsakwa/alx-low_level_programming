@@ -6,29 +6,23 @@
   *
   * Return: void
   */
+
 void rev_string(char *s)
 {
-	int i, c, k;
-	char *a, aux;
-
-	a = s;
-
-	while (s[c] != '\0')
+	char temp;
+	int len = 0, i, j;
+	
+	while (s[len] != '\0')
+		{
+			len++;
+		}
+    
+	for (i = 0, j = len - 1; i < j; i++, j--) 
 	{
-		c++;
+		temp = s[i];
+		s[i] = s[j];
+		s[j] = temp;
 	}
+}	
 
-	for (k = 1; k < c; k++)
-	{
-		a++;
-	}
-
-	for (i = 0; i < (c / 2); i++)
-	{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
-	}
-}
 
