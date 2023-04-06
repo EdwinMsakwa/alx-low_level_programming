@@ -13,14 +13,14 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	
+
 	return (check_palindrome(s));
 }
 
 /**
   * check_palindrome - Checks if a string is a palindrome
   * @s: the string input
-  * Return: integer 
+  * Return: integer value
   */
 int check_palindrome(char *s)
 {
@@ -28,10 +28,10 @@ int check_palindrome(char *s)
 
 	if (*s == s[l])
 	{
-		s++;
+		s = s + 1;
 		l--;
 	}
-	
+
 	else
 	{
 		return (0);
@@ -52,8 +52,8 @@ int _strlen_recursion(char *s)
 		return (0);
 	}
 
-	s++;
-	
+	s = s + 1;
+
 	return (_strlen_recursion(s) + 1);
 }
 
