@@ -5,13 +5,13 @@
   * _strdup - Duplicate a string variable
   * @str: string to duplicate
   *
-  * Return: returns a pointer to a new string which is a duplicate of the string
+  * Return: returns pointer to a new string which is a duplicate of the string
   */
 char *_strdup(char *str)
 {
-	int a = 0; 
+	int a = 0;
 	int i = 1;
-	
+
 	char *s;
 
 	if (str == NULL)
