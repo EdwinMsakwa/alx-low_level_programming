@@ -2,7 +2,7 @@
 
 /**
   * main - Prints the name of the file it was compiled from
-  * Return: Always returns 0 
+  * Return: Always returns 0
   */
 int main(void)
 {
