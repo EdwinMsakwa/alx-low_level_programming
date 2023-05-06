@@ -23,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 
 		if (b[len] == 49)
-			sum += 1 << count;
+			sum += 1 << count_var;
 
 		count_var++;
 	}
